@@ -1,0 +1,30 @@
+//AUTOR: ORIANA VEGA 
+//FECHA: 12/03/2023
+//DESCRIPCION: DESAROOLO DE UN PROGRAMA QUE PERMITA INGRESAR Y BUSCAR PERSONA (CLIENTE) Y EMPRESA (PERSONAL) EN UN BANCO DE BOUTIQUE.
+
+clase publica Banco 
+   publico String dni nuevaInstancia String()
+   publico Empresa e [50] nuevaInstancia Empresa() //cuenta de empresa
+
+   metodo publico Banco()
+   fin metodo
+fin clase
+
+clase publica Persona heredaDe Banco
+   publico String nombreCliente nuevaInstancia String()
+   publico Cliente c [50] nuevaInstancia Cliente() //cuenta de cliente 
+
+    metodo publico ingresarCliente (String nombreNuevo)
+      nombreCliente = nombreNuevo
+
+      si nombreNuevo = nombreCliente entonces 
+         mostrar: 
+       
+
+     
+
+
+
+   fin metodo
+
+fin clase

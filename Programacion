@@ -1,0 +1,309 @@
+**Hardware:** componentes materiales y fisicos que se encuentran dentro y fuera de la computadora (son los que se pueden ver y tocar). 
+
+**El hardware se divide en:**
+
+**Basico:** Son los componentes obligatorios y necesarios del equipo (CPU, placa base, teclado, memoria RAM y monitor)
+
+**Complementario:** Desarrolla acciones concretas  (por ejemplo impresoras y pendrive)
+
+Sin embargo el hardware no puede hacer nada por si solo, ya que solo es un sustento que sera utilizado por el software pero si ambos estan unidos el hardware da respuestas a las ordenes del software
+
+**Software:** Es la parte logica del ordenador, conjunto de instrucciones, reglas informaticas y programas que el equipo requiere para funcionar. El software se encarga de enviar señales que ejecutara el hardware, lo que permite que el ordenador sea operativo (el software no se puede tocar). 
+
+**Este se clasifica en:**
+
+**Software de sistema:** Es un conjunto de programas que permite al usuario comunicarse con el sistema en si. Son los sistemas operativos, controladores del dispositivos, programas utilitarios para el mantenimiento de la computadora.
+
+**Software de aplicacion:** Son programas diseñados para que el usuario desarrolle una tarea especifica, por ejemplo escribir en un procesador de texto, hojas de calculo, antivirus o productor de peliculas, entre otras. 
+
+**Softwarede programacion:** Herramientas empleadas por el informatico para escibir nuevos programas a traves de diversos lenguajes de programacion.
+ 
+ **EJEMPLO:** Aplicaciones se instalan en el hardware (disco duro) por ordenes de la CPU (procesador), la memoria RAM participa a la hora de abrir la aplicacion
+
+EL HARDWARE Y EL SOFTWARE SE RETROALIMENTAN, ES DECIR, AMBOS SE DAN INSTRUCCIONES PARA EL DESEMPEÑO DE TAREAS, SIN UNO DE ELLOS EL ORDENADOR NO FUNCIONARIA
+
+
+**Sistema operativo:** Unos de los elementos fundamentales que se utiliza cada vez que se enciende el ordenador es el sistema operativo.
+**¿QUE ES EL SISTEMA OPERATIVO?** 
+El SO es un programa especifico o un software de base que permite la conexion y interaccion con el hardware de la PC con el usuario, es decir, cada vez que se ejecute un programaem el ordenador el SO es quien permite que se abra, ceder a sus recursos de hardware y perifericos que necesite su correcto funcionamiento y indicar la cantidad de memoria que ocupara en funcion necesaria, al igual de numeros de programas que esten abiertos. Su obejtivo es que el usuario pueda utlizar todo lo que ofrece el sistema informatico de manera eficiente sacando provecho del hardware. Sin un SO el computaDOR NO PODRIA utiliazarse, ya que, es el encargado de que el equipo funcione y de que cualquier software pueda hacer uso del hardware necesario para su funcionamiento. Si una PC no cuenta con una SO ni siquiera podria encender. 
+El sistema operativo se comunica con todo el hardware conectando al sistema, mediante al uso de controladores poder hacer uso del mismo, ya sea un teclado, monitor, entre otras (con tal que sea compatible) 
+
+**Existen partes del SO:**
+
+**KERNEL O NUCLEO:** constituye una parte fundamental del sistema, podria definirse como el "corazon". Se ejecuta de modo privilegiado. El nucleo es el responsable de arrancar del propio sistema, proporciona un control de nivel basico de todos los componentes hardware cuya funciones principales son leer y escribir datos en memoria, asociar ordenes, interpretar datos, decidir que programas podra hacer uso determinado y durante cuanto tiempo. El kernel se ejecuta de manera aislada para evitar que cualquier software malicioso pueda manipularlo.
+
+**INTERFAZ DE USUARIO:** Permite interactuar con el ordenador, esta interfaz pueda ser grafica proporcionando un escritorio, ventanas, componentes graficos da una interaccion mas intuitiva o en una linea de comandos.
+
+**CONTROLADOR DE DISPOSITIVOS O DRIVERS:** Los controladores son los encargados de permitir que el sistema interactue con cualquier periferico, aunque no siempre es necesario para un nuevo hardware. Su uso es recomendado para evitar problemas, mejorar la seguridad de experiencia de usuario.
+
+**SISTEMA DE ARCHIVOS:** Es el componente del SO, encargado de asiganar el espacio de a los archivos, administrar el espacio libre y e¿del acceso a los datos resguardados, estructura la informacion guardada en la unida de almacenamiento. En la mayoria de sistema, maneja su propio sistema de archivos.
+
+**SISTEMA DE PROTECCION:** Obliga a utilizar mecanismos de proteccion, determinar los controles de seguridad a realizar o establecer diferencias entre el uso autorizado y no autorizado. Es el mecanismos que controla el acceso de los programas o los usarios a los recursos del sistema o especificar los controles de seguridad a realizar.
+
+**SISTEMA DE ENTRADA Y SALIDA:** Esta formado por un sistema de almacenamieno temporal, una interfaz manejadores de dispositivos y otra de dispositivos concretos del SO que pueda ser capaz de gestionar el almacenamiento de entrada y salida y servir las interupciones del dispositivo.
+
+**GESTION DE PROCESOS:** Se encarga de crear, finalizar, parar procesos y de ofrecer mecanismos para que los procesos puedan comunicarse y sincronizarse asi como posibilidad de establecer prioridades.
+
+**MEMORIA PRINCIPAL:** Tablas de palabras o bytes donde se almacenan datosde rapido acceso y que es compartida con la CPU y con los dispositivos de entrada y salida. Es volatil y permite al sistema saber que partes de las memorias estan siendo utilizados o por quien. Decidir los procesos que se encargaran en memoria cuando hay espacio, asi como asignar y reclamar espacio cuando sea necesario.
+
+**SISTEMA DE COMUNICACIONES:** Se encarga de controlar el envio y recepcion de datos a traves de las interfaces de red.
+
+**GESTOR DE RECURSOS:** Se encarga de gestionar la entrada y salida. programas o procesos en ejecucion, la memoria secundaria, los discos y recursos del sistema general.
+
+El sistema operativo es una conexion entre los componentes y los programas funciones armonicamente
+
+**Se clasifican en:** 
+
+Sistema operativo en tiempo real: Ejecuta aplicaciones tiempo real, para que funciones correctamente es necesario que el sistema sea predesible, se utiliza para sistema industriales, instrumentos cientificos y controlar maquinas.
+
+**Sistema operativo multitarea:** Permite realizar varios procesos a la vez, es el mas utilizados en los ordenadores.
+
+**Sistema operativo multiusuario:** Varios usuarios utlicen recursos de un equipo simultaneamente, este sistema debe administrar la capacidad de la demanda de los usuarios. 
+
+Se carga de dar las ordenes a nivel de maquina al hardware a traves de un sistema binario a los sistema operativos, lo cual, esto se denomina una comunicacion 
+
+**IDE:** El IDE es un programa que ayuda a programar (maquina virtual), existen IDE creado para ciertos lenguajes de programacion. El IDE es un entorno de desarrollo integrado, consiste en un editor de codigo, compilador o traductor de codigo, depurador el cual encuentre errores y un constructor de interfaz grafica. Es decir, IDE traduce el codigo binario en un lenguaje mas entendible, ya que, el codigo binario por si solo son 0 y 1. Existen diversos IDE:
+**ECLIPSE**
+**NETBEANS**
+**INTELLIIDEA**
+**VISUAL STUDIO** 
+**ANDROID STUDIO**
+**Entre otras**
+
+
+**Codigo binario:** Este se compone de 0 y 1. 
+Los ordenadores, moviles, todas las maquinas electronicas funcionan con componentes magneticos, electronicos que pueden estar encendido o apagado (0 para apagado y 1 para encendido). Con estos dos numeros los dispositivos electronicos deben organizarse para entender las letras, colores, posiciones, musica entre otras. Se debe ser capaz de reducir todo a numeros, solo hay dos cifras que se usa en cada casilla el 0 y 1, cada columna vale dos veces lo que vale el de la derecha (primer numero). 
+
+**Niveles de programacion:** son ordenes que le da el usuario a la computadora de lo que desea realizar en ella. ¿Como funciona esto? El programa que utiliza el usuario se comunica con el sistema operativo, este ultimo lo convierte en codigo binario. El codigo binario, le dara ordenes al hardware, este ultimo cumplira con las ordenes y luego se lo devuelve al codigo binario con un lenguaje entendible, pasandolo al sistema operativo, el cual convierte esta orden en niveles de programacion. 
+
+**Que es programar:** Dar ordenes al hardware para que realice una o varias acciones que es devuelto a traves del software 
+
+**¿Que es un algoritmo?**
+Es un conjunto de reglas o instrucciones definidas y ordenas, siendo finitas (es decir, siempre tiene un acabado). Los algoritmos permiten todo ella para llevar a cabo pasos sucesivos (es una forma de dar ordenes exactas y concretas). Es decir con acciones cotidianas que son conllevadas por pasos aunque no nos demos cuenta. Lo mismo ocurre cuando programamos, debemos seguir instrucciones que debe tener un inicio, desenlace y final
+
+**Por ejemplo:**
+
+Entrar en la casa:
+1. Acercarse a la puerta 
+2. Levantar la mano 
+3. Tomar la manilla 
+4. Girar la manilla hacia izquierda 
+5. Empujar la puerta 
+6. Soltar la manilla 
+7. Caminar hacia adelante 
+8. Darse la vuelta 180 grados 
+9. Levantar la mano 
+10. Tomar la manilla 
+11. Empujar la puerta suavemente hasta que tope
+
+Despues de haber creado todo el algoritmo puedo crear contingencias para solucionar algunos problemas (por ejemplo la persona realiza todos los pasos pero se detiene en el paso N°10 porque la manija se rompe, aqui se debe crear una contingencia). Cuando se crea una contingencia el algoritmo se amplia y deben ser claros y precisos. 
+
+**Existen tres tipos de algoritmos**
+
+**Secuencial** Son ordenes o pasos seguidos uno detras del otro
+
+**Seleccion (decision)** Este esquema es de contingencia, es decir, no solo el algoritmo se ordena paso a paso, sino que cuando surge un problema comienza a abirse para mostrar otras soluciones. 
+
+**Repeticion (bucle)** Este esquema se repite hasta que se cumpla dicho requisito.
+
+ESTOS TRES TIPOS DE ALGORITMOS NO SE USAN POR SEPARADOS, SINO QUE ESTARAN JUNTOS DENTRO DE LA PROGRAMACION.
+
+**Pseucodigo** 
+
+Es una descripcion de acciones o pasos para resolver un problema que luegp sera llevado a codigo. Es necesario organizar los pasos para luego convertirlo. (ES RECOMENDABLE ESCRIBIR EL ALGORITMO, ESCRIBIENDO LOS PASOS PARA LUEGO PASARLO AL PSEUCODIGO)
+
+**Por ejemplo**
+
+Proceso NUMERO MAYOR
+  escribir 'Ingresar A: ' ;
+  leer A;
+  escribir 'Ingresar B: ' ;
+  leer B;
+  Si A > B Entonces
+    escribir 'El mayor es A' ;
+  sino 
+    escribir 'El mayor es B' ;
+  fin si 
+fin proceso 
+
+
+**Diagrama de flujo** 
+
+El diagrama de flujo es mas didactico a la hora de organizar armar el algoritmo, ya que, es mas visible. Es decir, el pseucodigo puede ser conflictivo para visualizar con detalle lo que deseamos armar pero con el diagrama se ve claramente para la programacion. 
+
+
+Que puede hacer un computador?
+Sumar 
+Restar 
+Dividir 
+Multiplicar 
+Recordar informacion 
+Recordar acciones 
+
+Que es un lenguaje de programacion?
+Es un lenguaje formal, especializado solo para las maquinas 
+Dentro del lenguaje se hayan reglas gramaticales definidas, para indicarles instrucciones a seguir, como por ejemplo, "entrar en la casa"
+A su vez, esto nos permite entregarle datos o informacion a una persona 
+
+Dato:
+36 // podria ser una edad, cantidad de manzanas, etc 
+chanchito // podria ser un apodo, animal, corte de carne, etc 
+feliz // estado animico, sentimiento, etc 
+Es decir, los datos son indefinidos, ya que, abarca muchas opciones y no se sabe exactamente que es.
+Sin embargo, si asociamos un dato con otro, tendremos una mejor definicion denominada informacion, por ejemplo:
+36 años 
+chanchito feliz 
+Aunque si lo visualizamos de esta manera no queda muy claro pero si lo asociamos quedaria asi: 
+Dato: 
+
+Usuario: // es una persona 
+  36 años 
+  chanchito feliz 
+
+Esto ultimo es informacion 
+
+Los lenguaje de programacion poseen variables y funciones. Las variables son una caja que contiene informacion y se le puede 
+indicar un nombre a la "caja", por ejemplo
+
+x = 10 // si abrimos esta "caja" llamada x, veremos lo que contiene (10) pero .. ¿Que representa el 10?
+Si cambiamos el nombre de la variable y mantenmos su contenido quedaria asi....
+
+edad = 10 
+
+o por ejemplo 
+
+cantidad = 10
+
+Mas variables ...
+x = "chanchito"
+animal = "chanchito"
+menu = "chanchito"
+holamundo = "chanchito feliz"
+
+Tipos de datos:
+
+animal = "chanchito" // Tipo de dato string (se refiere a texto)
+edad = 36 // Tipo de dato integer (se refiere SOLO a numeros enteros)
+harina = 0.5 // Tipo de dato float (se refiere SOLO a numeros con coma o puntos)
+caracter = "a" // Tipo de dato char (se refiene al uso de caracter pero se suele usar poco)
+casado = true // Tipo de dato boolean (se refiere al uso de TRUE o FALSE, no pueden ser ambas)
+
+Ejemplos con tipos de datos:
+
+holamundo = "chanchito feliz" // STRING 
+juegos = 12 // INTEGER
+calzado = 10.5 // FLOAT
+cansado = false // BOOLEAN
+
+Estos tipos de datos es lo que podria contener una variable
+
+Las funciones son aquellas que solo se programan una sola vez y estas recordaran para siempre o hasta que se modifique lo que debe hacer
+y nos permite reutilizar algoritmos (conjunto de instrucciones) que hemos creado 
+por ejemplo: 
+
+Cuando creamos esta funcion, lo que hicimos fue indicarle a la maquina que existe una funcion llamda "EntrarALaCasa"
+function EntrarALaCasa (): // Se utiliza la primera letra de cada palabra en mayuscula para que se pueda visualizar mejor el nombre de una variable o funcion tambien se podria utlizar con guion bajo, ej: entrar_a_la_casa (solo se puede con mayuscula o guion bajo)
+ 1. Acercarse a la puerta 
+ 2. Levantar la mano 
+ 3. Tomar la manilla 
+ 4. Girar la manilla hacia izquierda 
+ 5. Empujar la puerta 
+ 6. Soltar la manilla 
+ 7. Caminar hacia adelante 
+ 8. Darse la vuelta 180 grados 
+ 9.Levantar la mano 
+ 10. Tomar la manilla 
+ 11. Empujar la puerta suavemente hasta que tope // Del paso 1 al 11 se llama algoritmo (set de instrucciones para solucionar problemas)
+
+EntrarALaCasa () // de esta manera estaremos llamado a la funcion para entrar a la casa, sino hacemos esto solo la maquina sabra que existe
+
+
+Orientacion a objetos: Es un paradigma (existen diversos paradigmas) "una forma de ver la vida" (es decir una forma como resolver problemas)
+
+Personas { // esto es una clase (UNA CLASE ES UN PLAN DE CONSTRUCCION DE UNA "CASA")
+  edad: Integer
+  nombre: String
+  colorCabello: String 
+} // es una variable, un tipo de plan de construccion para crear personas 
+
+personaChanchito = { // esto es un objeto (UN OBJETO ES LA CONSTRUCCION YA HECHA EN BASE AL PLAN ), es decir el objeto "personaChanchito" se crea en base a la clase "personas" (personaChanchito es una instancia de la clase persona)
+  edad: 36
+  nombre: "chanchito"
+  colorCabello: "castaño"
+} // aqui se crea una persona con sus datos en base al plan de construccion 
+
+personaFelipe = { // esto es objeto 
+  edad: 15
+  nombre: "Felipe"
+  colorCabello: "rojo pasion"
+}
+
+Vamos a convertir lo anterior en lenguaje de programacion 
+
+class Personas {
+  edad: Integer
+  nombre: "chanchito"
+  colorCabello: "castaño"
+}
+
+personaChanchito = new Personas( // personaChanchito es una instancia de la clase personas (personaChanchito = new Personas, lo que le estamos diciendo a la maquina es = creame una nueva instancia en base a la clase personas)
+  edad: 36
+  nombre: "chanchito"
+  colorCabello: "castaño"
+  decirNombre(): // esto funcionara cuando se llama al metodo "decirNombre" (metodo es una funcion que se encuentra dentro de un objeto)
+    habla {tu nombre} // lo que hacemos aqui es comenzar a darle forma a la variable para que realice alguna accion (este algoritmo dira el nomnre de "chanchito")
+)
+
+personaFelipe = new Personas ( // ocurre lo mismo como lo anterior 
+  edad: 15
+  nombre: "Felipe"
+  colorCabello: "rojo pasion"
+  decirNombre():
+    habla {tu nombre} // ocurre lo mismo que lo anterior 
+)
+
+Aqui se ve que se duplica codigo pero si no quiero hacerlo duplicar puedo hacer esto: 
+
+class Personas {
+  edad: Integer
+  nombre: "chanchito"
+  colorCabello: "castaño"
+  decirNombre(): // esta nueva funcion integrada en la clase persona se introduce en cada instancia del objeto
+    habla {tu nombre} 
+}
+
+personaChanchito = new Personas( 
+  edad: 36
+  nombre: "chanchito"
+  colorCabello: "castaño"
+)
+
+personaFelipe = new Personas ( 
+  edad: 15
+  nombre: "Felipe"
+  colorCabello: "rojo pasion"
+)
+
+La orientacion a objeto se utiliza para no repetir codigo 
+
+Getter: Permite obtener el valor de una propiedad de la clase y asi poder utilizar dicho valor con diferentes metodos 
+Setter: Permite brindar acceso a propiedades especificas para poder asignar un valor fuera de la clase 
+
+
+
+Ejercicios 
+
+Class DueñoDePc{
+  contraseña: 12346
+  escribirContraseña():
+    escribir {tu contraseña}
+}
+
+DueñoDePcUsuario= new usuario (
+  contraseña: 12346
+Si 12346 = contraseña entonces 
+   mostrar: "Bienvenido"
+sino 
+    mostrar: "acceso denegado"
+fin si 
+)

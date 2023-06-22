@@ -1,0 +1,89 @@
+clase NotasDeAlumnos
+    String nombre nuevaInstancia String()
+    Integer nota nuevaInstancia Integrer()
+
+    metodo nA()
+      nombre = "Anonimo"
+      nota = 0 
+    fin metodo
+
+    metodo asignarNota(String nuevaNota)
+       nombre = nuevaNota
+        si nota >= 8 Y nota <=10 entonces 
+           mostrar: "muy sobresaliente"
+        sino si nota >= 6 Y nota <= 8 entonces
+           mostrar: "sobresaliente"
+        sino si nota >= 0 Y nota <= 6  entonces 
+            mostrar: "desaprobado"
+
+             si nota <> nota entonces
+                mostrar: "Valor invalido, vuelva a ingresar otro valor"
+           fin si 
+     fin si 
+   fin metodo
+    
+    metodo String nombre()
+        retornar: nombre
+    fin metodo 
+fin clase
+ 
+
+clase NotasDeAlumnosTest
+    metodo calificacionUsandoMetodos()
+       Nro nota nuevaInstancia Nro()
+       nota.asignarNota ()
+       nota.asignarNota("nota")
+       mostrar: nota.asignar.Nota()
+   fin metodo 
+
+   metodo alumnoUsandoAtributo()
+       Alumno alumno nuevaInstancia Alumno()
+       alumno.nombre = Oriana Vega
+       mostrar: alumno.nombre()
+   fin metodo 
+fin clase 
+
+         
+
+clase DNI
+   String dni nuevaInstancia String()
+   dni= "43.013.311"
+   Validar numero nuevaInstancia Validar ()
+
+   metodo DNI()
+   fin metodo
+
+    metodo ingresarDni (String nuevoNro)
+       dni= nuevoNro
+    fin metodo
+
+    metodo boolean validaDni ()
+      Dni dni nuevaInstancia Dni ("43.013.311")
+        si dni.validar() = verdadero entonces 
+           mostrar: "Numero correcto"
+        sino 
+            mostrar: "Numero incorrecto, ingrese nuevamente"
+       fin si 
+    fin metodo
+
+    metodo DniTest
+      String dni nuevaInstancia String()
+      DNI ver nuevaInstancia DNI()
+
+      ingresar: dni
+
+      ver.validaDni(dni)
+      mostrar: ver.validaDni()
+    fin metodo
+fin clase 
+
+      
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+clase publica vehiculo
+   privado Marca marca nuevaInstancia Marca()
+   privado Color color nuevaInstancia Precio()
+
+   metodo publico vehiculo ()
+   fin metodo
+
+   metodo publico asignarMarca(String nuevaMarca)
+      marca = nuevaMarca
+   fin metodo
+
+   metodo publico asignarColor(String nuevoColor)
+      color = nuevoColor
+   fin metodo
+
+   fin metodo
+
+   metodo publico verMarca(String nuevaMarca, Boolean vehiculoMarca)  
+       marca = nuevaMarca
+        si vehiculoMarca = verdadero entonces
+         mostrar: "Hay vehiculo de la marca ingresada"
+        sino 
+          mostrar: "No hay vehiculo de la marca ingresada"
+        fin si 
+   fin metodo
+
+   metodo publico verColor(String nuevoColor, Boolean hayColor)
+       color = nuevoColor 
+        si hayColor = verdadero entonces 
+         mostrar: "Hay vehiculo del color ingresado"
+        sino 
+           mostrar: "No hay vehiculo del color ingresado"
+        fin si 
+   fin metodo
+fin clase 
+
+clase publica VehiculoTest
+    metodo publico vehiculoTest()
+       publico Vehiculo auto nuevaInstancia Vehiculo()
+       auto.asignarMarca ("Fiat")
+       auto.asignarColor ("Gris")
+       auto.verMarca()
+       auto.verColor()
+fin clase
+
+  
+
+
+
+     
+
+    
+
